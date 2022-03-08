@@ -1,13 +1,14 @@
 header {
-    width: 60;
+    width: 70;
     height:80px;
     background-color: #3f37c9;
     text-align: center;
     color: #250020;
+    padding: 15px;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 86px;
+    margin-right: 86px;
     border: 25px solid #4cc9f0;
     /* border-radius: 15%; */
     border-radius: 3em;
