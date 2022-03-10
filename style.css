@@ -16,10 +16,10 @@ header {
 
 p {
     width:90;
-    height: 250px;
+    height: 350px;
     font-size: 30px;
-    text-align: center;
-    margin-top: 60px;
+    text-align: left;
+    margin-top: 60px;                          /* p  v html nepoužito!!!! */
     margin-bottom: 100px;
     margin-left: 80px;
     margin-right: 80px;
@@ -30,6 +30,25 @@ p {
 }
 
 
+pre {
+    width: 90;
+    height: 350px;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: brown;
+    padding: 10px;
+}
 
 
+footer {
+    background-color: #3f37c9;
+    text-align: center;
+    font-size: 30px;
 
+    padding: 10px;
+    color:rgba(200, 100, 100, 0.5)
+}

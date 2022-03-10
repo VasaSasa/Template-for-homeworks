@@ -11,17 +11,22 @@
     <header><h1>JS_Practicum_Modul_1_Week_2_1532417233.pdf</h1></header>
 
 <article>
-  <h2>1. Ask the user for a number and determine whether it is positive, 
+  <h2>Tasks in which you want to use IF.<br>1. Ask the user for a number and determine whether it is positive, 
     negative, or zero.</h2>
 
   <section>
-    <p>
-
-        řešení 
-
-
-    </p>
-
+          
+          <pre>
+let user = Number(prompt("Zadej celé číslo.(kladné, záporné,nulu)"));
+if (user == 0) {
+     console.log("Zadal jsi nulu.");
+} else if (user > 0) {
+     console.log("Zadal jsi kladné číslo.");
+} else {
+     console.log("Zadal jsi záporné číslo.");
+}
+          </pre>
+        
   </section>
 
 
@@ -29,14 +34,20 @@
 
 
 <article>
-    <h2>2Zadání příkladu</h2>
+    <h2>2. Ask the user for their age and check the correctness of the 
+      entered data (0–120 years old).</h2>
   
     <section>
-      <p>
-  
-            řešení
-  
-      </p>
+      
+        <pre>
+let user = Number(prompt("Zadejte svůj věk."));
+if (user > 0 && user <= 120) {
+     console.log("Váš věk je:",user,"rok/roky/roků.");
+} else {
+     console.log("Zadaný věk neodpovídá lidskému životu!!!");
+}
+        </pre>
+      
   
     </section>
   
@@ -44,14 +55,19 @@
   </article>
 
   <article>
-    <h2>3Zadání příkladu</h2>
+    <h2>3. Ask the user for a number and output its module (|7| = 7, |-7| = 7).</h2>
   
     <section>
-      <p>
+      <pre>
+        
+let user = Number(prompt("Zadejte celé číslo.(V matematice označeno Z)"));
+if (user >= 0) {
+     console.log("(|",user,"|=",user,", |-",user,"|=",user,")");
+} else {
+     console.log("(|",Math.abs(user),"|=",Math.abs(user),", |",user,"|=",Math.abs(user),")");
+}
   
-            řešení
-  
-      </p>
+      </pre>
   
     </section>
   
@@ -62,16 +78,16 @@
 
 
   <article>
-    <h2>41. Ask the user for a number and determine whether it is positive, 
-      negative, or zero.</h2>
+    <h2>4. Ask the user for time (hours, minutes, seconds) and check the 
+      correctness of the entered data. </h2>
   
     <section>
-      <p>
+      <pre>
   
           řešení 
   
   
-      </p>
+      </pre>
   
     </section>
   
@@ -80,14 +96,17 @@
   
   
   <article>
-      <h2>5Zadání příkladu</h2>
+      <h2>5. Ask for coordinates of the point (x, y) and determine number 
+        of the quadrant where this point got. It is necessary to take into 
+        account the cases when the point get on X/Y axis or origin. </h2>
+    </h2>
     
       <section>
-        <p>
+        <pre>
     
               řešení
     
-        </p>
+        </pre>
     
       </section>
     
@@ -95,14 +114,15 @@
     </article>
   
     <article>
-      <h2>6Zadání příkladu</h2>
+      <h2>Tasks in which you want to use SWITCH.<br> 
+        1. Ask the user for month number and display its name. </h2>
     
       <section>
-        <p>
+        <pre>
     
               řešení
     
-        </p>
+        </pre>
     
       </section>
     
@@ -110,16 +130,17 @@
     </article>
   
     <article>
-      <h2>71. Ask the user for a number and determine whether it is positive, 
-        negative, or zero.</h2>
+      <h2>2. Implement a calculator. The user enters 2 numbers and a sign 
+        (+ - * /). Depending on the entered sign, solve the problem 
+        and print the result. </h2>
     
       <section>
-        <p>
+        <pre>
     
             řešení 
     
     
-        </p>
+        </pre>
     
       </section>
     
@@ -128,14 +149,15 @@
     
     
     <article>
-        <h2>8Zadání příkladu</h2>
+        <h2>Tasks in which you want to use the ternary operator.<br> 
+          1. Ask for 2 numbers and output the greater one. </h2>
       
         <section>
-          <p>
+          <pre>
       
                 řešení
       
-          </p>
+          </pre>
       
         </section>
       
@@ -143,14 +165,14 @@
       </article>
     
       <article>
-        <h2>9Zadání příkladu</h2>
+        <h2>2. Ask for 1 number and check if it is a multiple of 5.</h2>
       
         <section>
-          <p>
+          <pre>
       
                 řešení
       
-          </p>
+          </pre>
       
         </section>
       
@@ -158,21 +180,28 @@
       </article>
     
       <article>
-        <h2>10Zadání příkladu</h2>
+        <h2>3. Ask the user for name of the planet. If the user enters "Earth" 
+          or "earth", then output "Hello, Earthman!", otherwise, output 
+          "Hello, alien!" </h2>
       
         <section>
-          <p>
+          <pre>
+let user = Number(prompt("Zadejte celé číslo.(V matematice označeno Z)"));
+if (user >= 0) {
+      console.log("(|",user,"|=",user,", |-",user,"|=",user,")");
+} else {
+      console.log("(|",Math.abs(user),"|=",Math.abs(user),", |",user,"|=",Math.abs(user),")");
+}
       
-                řešení
       
-          </p>
+          </pre>
       
         </section>
       
       
       </article>
 
-
+<footer><h1>&copy Václav Doležal</h1></footer>
 </body>
 <script src="script.js"></script>
 </html>
